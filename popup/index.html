@@ -1,0 +1,31 @@
+<html>
+  <head></head>
+  <body>
+    <link rel="stylesheet" href="magnific-popup.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="jquery.magnific-popup.min.js"></script>
+
+    <a class="img1" href="https://scx2.b-cdn.net/gfx/news/hires/2015/gaiaproduces.png" title="title1">
+    <img src="https://scx2.b-cdn.net/gfx/news/hires/2015/gaiaproduces.png" width="500" height="500"/>
+    </a>
+    <a class="img1" href="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/k7tcazmik37m8wwp_1592480013.jpeg?tr=w-812,h-464" title="title2">
+    <img src="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/k7tcazmik37m8wwp_1592480013.jpeg?tr=w-812,h-464" width="500" height="500"/>
+    </a>
+    <a class="img1" href="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_564/https://dailygalaxy.com/wp-content/uploads/2020/08/b4e149c26f49a0bf46f43c266e6cee13-1.jpg">
+    <img src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_564/https://dailygalaxy.com/wp-content/uploads/2020/08/b4e149c26f49a0bf46f43c266e6cee13-1.jpg" width="500" height="500"/>
+    </a>
+
+    <script type="text/javascript">
+        $('.img1').magnificPopup({
+        type: 'image',
+        closeOnContentClick: true,
+        closeBtnInside: true,
+        fixedContentPos: true,
+        image: {    verticalFit: true    },
+        gallery: {   enabled: true    },
+        zoom: {    enabled: true,   duration: 400    }
+        });
+    </script>
+
+  </body>
+</html>
